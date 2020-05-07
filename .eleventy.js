@@ -1,6 +1,6 @@
 module.exports = function (config) {
   config.addPassthroughCopy('src/js');
-  config.addPassthroughCopy('src/amp');
+  config.addPassthroughCopy('src/assets');
   return {
     dir: {
       input: 'src',

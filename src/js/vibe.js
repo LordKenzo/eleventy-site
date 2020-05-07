@@ -1,4 +1,8 @@
-const vibes = ['...frase 1', '...frase 2', '...frase 3'];
+const vibes = [
+  '...oggi voglio studiare React',
+  '...oggi voglio riprendere Angular',
+  "...oggi voglio vedere l'autenticazione in Gatsby",
+];
 
 const vibe = vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
 

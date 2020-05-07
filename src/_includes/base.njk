@@ -8,10 +8,29 @@
     <style>
         body {
             text-align: center;
+            margin: 0;
+        }
+        h1,h2,h3,h4,h5,h6 {
+            margin: 0;
+        }
+        header {
+            background-image: url('https://source.unsplash.com/random');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 40vh;
+        }
+        header h1 {
+            background-color: rgba(23,23,23,.3);
+            display: inline-block;
+            color: #fff;
         }
         div.container {
             width: 400px;
             margin: 0 auto;
+        }
+        ul {
+        list-style: none;
         }
         .love {
             font-size: 4em;
@@ -20,5 +39,8 @@
 </head>
 <body>
     {{ content | safe}}
+    <footer>
+        Thanks to https://newsapi.org/
+    </footer>
 </body>
 </html>
